@@ -1,0 +1,17 @@
+# Define backbone.
+backbone: SimpleDNN
+
+# Define heads.
+heads:
+  - FullyConnected
+
+# Training configuration.
+num_epochs: 10
+batch_size: 16
+lr: 0.0001
+
+# Logging configuration.
+log_file: logs/dnn_fc.tsv
+
+# Figure prefixes.
+img_file: figures/dnn_fc
